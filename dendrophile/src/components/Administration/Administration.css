@@ -4,7 +4,8 @@
     height: 3px;
     background-color: black;
     border-radius: 10px;
-    width: 5%;
+    width: 80px;
+    height: 5px;
 }
 
 .app__main > div > div > h1 {

@@ -4,3 +4,77 @@
     font-family: "Poppins";
     font-weight: 600;
 }
+
+.addcompany__form {
+    background: rgba(101, 150, 88, 0.49);
+    border-radius: 30px;
+    padding: 2rem 2rem;
+    margin: 2rem 0rem;
+}
+
+.addcompany__form > h4 {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Manuale";
+}
+
+.addcompany__form > table {
+    padding: 2rem 0rem;
+    text-align: left;
+    margin: auto;
+    width: 100%;
+}
+
+.addcompany__form > table > tbody > tr > td {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Manuale";
+}
+
+.addcompany__form > table > tbody > tr :last-child{
+    margin-bottom: 0.5rem;
+}
+
+.addcompany__form > table > tbody > tr > td > input {
+    width: 90%;
+}
+
+.addcompany__form--btn {
+    text-align: center;
+}
+
+.addcompany__form--btn > input {
+    width: 173px;
+    height: 74px;
+    background: #B4CCAD;
+    border: 5px solid #0A5A0A;
+    border-radius: 10px;
+    font-family: Manuale;
+    font-size: 25px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .addcompany__form {
+        margin: 2rem 5rem;
+    }
+
+    .addcompany__form > table {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .addcompany__form > table > tbody {
+        width: 43%;
+    }
+
+    .addcompany__form > table > tbody > tr > td > input {
+        width: 250%;
+    }
+
+    .addcompanyform__first {
+        border-right: 2px solid black;
+        padding-right: 0px;
+        margin-right: 2rem;
+    }
+}
