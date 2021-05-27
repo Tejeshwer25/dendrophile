@@ -1,0 +1,31 @@
+.loginText {
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.loginText hr {
+    background-color: #254117 !important;
+}
+
+.loginText h2 {
+    font-family: "Poppins";
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #254117;
+}
+
+.loginText__text {
+    margin: 1.5rem 0 3rem 0;
+    font-size: 1.2rem;
+
+}
+
+.loginText__btn {
+    padding: 1rem 1.5rem;
+    background: #254117;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    margin: auto;
+}

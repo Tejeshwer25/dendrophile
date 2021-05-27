@@ -76,7 +76,7 @@ const FormSignUp=({ submitForm })=>{
         </button>
             <span className="form-input-login">
                 Already registered? 
-                <a href="#"> Login</a>
+                <a href="/login"> Login</a>
             </span>
          </form>
        

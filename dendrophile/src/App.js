@@ -6,6 +6,7 @@ import AddCompany from "./components/AddCompany/AddCompany";
 import ViewCompany from "./components/ViewCompany/ViewCompany";
 import SavedEnv from "./components/SavedEnvironment/SavedEnv";
 import ViewAnalysis from "./components/ViewAnalysis/ViewAnalysis";
+import Login from "./components/Login/Login";
 import {
   BrowserRouter as Router,
   Switch, 
@@ -50,6 +51,10 @@ function App() {
 
             <Route exact path="/savedEnvironmentCompany">
               <SavedEnv />
+            </Route>
+
+            <Route exact path="/login">
+              <Login />
             </Route>
 
             <Route path="/">

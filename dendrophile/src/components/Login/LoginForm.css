@@ -1,0 +1,86 @@
+.loginForm {
+    margin-top: 2rem;
+    background: rgba(10, 90, 10, 0.55);
+    padding: 2rem 1.5rem;
+    border-radius: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.loginForm__header > h3 {
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+.loginForm__form {
+    margin: 2rem auto;
+}
+
+.loginForm__form > form {
+    margin: auto;
+    width: 100%;
+}
+
+.loginForm__form--input {
+    background: transparent;
+    margin: 2rem 0 0 0;
+    border: none;
+    display: block;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    width: 100%;
+    outline: none;
+    font-size: 1.2rem;
+    padding: 5px 1rem;
+}
+
+.loginForm__form--input::placeholder {
+    color: #CCC6C6;
+}
+
+.loginForm__form--input > option {
+    color: black;
+}
+
+.loginForm__form--btn {
+    background: #E5E5E5;
+    border-radius: 30px;
+    padding: 0.8rem 3rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-top: 1.5rem;
+}
+
+.loginForm__form--btn:hover {
+    cursor: pointer;
+}
+
+.loginForm p {
+    color: #fff;
+}
+
+.loginForm p > a{
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+
+.loginForm__form--forgotpass {
+    text-align: right;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1rem;
+    margin-top: 5px
+}
+
+@media (min-width: 1110px) {
+    .loginForm__form > form {
+        width: 60%;
+    }
+}
